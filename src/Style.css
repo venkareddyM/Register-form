@@ -1,0 +1,54 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+}
+h2 {
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    height: 30px;
+    border-radius: 4px;
+}
+.error-message{
+    color: red;
+}
+
+.radio-label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+
+.form-button{
+    display: flex;
+    justify-content: space-between;
+
+}
+.reset-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+  }
+  
+  .submit-button {
+    background-color: green;
+    border: none;
+    padding: 10px;
+    color: white;
+  }
+  
